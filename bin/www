@@ -13,7 +13,7 @@ const mongoose = require('mongoose');
 
 
 //local
-mongoose.connect('mongodb://localhost:27017/LiveStream',{}).then((res)=>{
+mongoose.connect('mongodb+srv://gunavikas86:gunavikas86@cluster0.zbom8fh.mongodb.net/LiveStream',{}).then((res)=>{
   console.log("Db Connected");
 }).catch((error)=>{
   console.log(error + "error in db connection");
